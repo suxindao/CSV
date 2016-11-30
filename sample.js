@@ -15,6 +15,9 @@ const status_quot = 1
 // 4,brian,"aaa,"",""bbb",22222
 // 5,"ccc,",ddd,eee
 // 6,""",""",888
+//
+// 正则表达式匹配
+// (((")([^"]*("")?)*")|[^,]+),
 
 readStream.on('data', function (chunk) { // 当有数据流出时，写入数据
 
